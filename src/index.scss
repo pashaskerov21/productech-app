@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    transition: 0.2s;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+section{
+    width: 100%;
+    padding: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .row{
+            width: 100%;
+        }
+        h1{
+            margin-bottom: 40px;
+        }
+    }
+}
+header {
+    padding: 20px 0;
+    background-color: #005670;
+    color: #fff;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo-span {
+            font-size: 24px;
+            font-weight: 600;
+        }
+        .balance{
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            font-weight: 500;
+            span{
+                margin-left: 20px;
+                font-size: 24px;
+                font-weight: 600;
+                text-align: end;
+            }
+        }
+    }
+}
+
+
+.product-card{
+    width: 100%;
+    max-width: 330px;
+    min-height: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid rgba(#000, 0.1);
+    padding: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    &:hover{
+        box-shadow: 0 0 5px rgba(#000, 0.3);
+        transform: translateY(-5px);
+    }
+    .product-image{
+        width: 100%;
+        height: 200px;
+        margin-bottom: 10px;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit:contain;
+        }
+    }
+    .title{
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 15px;
+        min-height: 85px;
+    }
+    .price{
+        margin-bottom: 10px;
+        color: #e4002b;
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .amount-row{
+        padding: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        button{
+            padding: 5px 25px;
+            background-color: #008eaa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            &:hover{
+                background-color: #009f4d;
+            }
+        }
+        span{
+            min-width:  60px;
+            font-weight: 500;
+            font-size: 20px;
+        }
+    }
+}
+
+.empty-text{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.basket-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.basket-products{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .col-2,
+    .col-7,
+    .col-3{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .col-3{
+        justify-content: flex-end;
+    }
+    .row{
+        width: 100%;
+        padding: 20px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid rgba(#000, 0.1);
+        &-image{
+            width: 100px;
+            height: 100px;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+        &-title{
+            font-size: 18px;
+            font-weight: 600;
+        }
+        &-price{
+            font-weight: 600;
+            font-size: 20px;
+            color: #e4002b;
+        }
+    }
+}
+
+.basket-result{
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.reset-button{
+    align-self: flex-end;
+    padding: 10px 30px;
+    background-color: #e4002b;
+    color: #fff;
+    font-size: 18px;
+}

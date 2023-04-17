@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "image": "https://kontakt.az/wp-content/uploads/2023/03/new_project_-_2023-04-03t214550.871_png.webp",
+        "title": "Notbuk Asus VivoBook Pro K6602ZC-KV046",
+        "price": 2999.99
+    },
+    {
+        "id":2,
+        "image": "https://kontakt.az/wp-content/uploads/2023/01/New-Project-90-13_png.webp",
+        "title": "Monitor HP M27FD (2H3Y8AA)",
+        "price": 669.99
+    },
+    {
+        "id":3,
+        "image": "https://kontakt.az/wp-content/uploads/2022/08/New-Project-2022-08-26T144359.600_png.webp",
+        "title": "Gaming Keyboard Hyperx Allow Origins Core Mechanical Red",
+        "price": 249.99
+    },
+    {
+        "id":4,
+        "image": "https://kontakt.az/wp-content/uploads/2023/01/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-13-2_png.webp",
+        "title": "Gaming Mouse Logitech G502 X Black USB",
+        "price": 199.99
+    }
+]
